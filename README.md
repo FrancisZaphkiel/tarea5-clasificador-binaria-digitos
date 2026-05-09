@@ -14,3 +14,16 @@ El desarrollo debe realizarse en un notebook de Jupyter documentando cada etapa 
 - Generar predicciones
 - Evaluar el modelo utilizando métricas de clasificación binaria
 - Interpretar los resultados obtenidos
+
+## Requisitos
+- Python 3.14+
+- ipython
+- jupyter
+- scikit-learn
+- pandas
+- matplotlib
+- numpy
+
+## Modelos a utilizar
+- SGDClassifier (Fase 1)
+- Random Forest (Fase 2 para comparar)
