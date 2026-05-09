@@ -1,0 +1,10 @@
+services:
+  jupyter:
+    build: .
+    container_name: tarea5-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    environment:
+      - JUPYTER_TOKEN=tarea5

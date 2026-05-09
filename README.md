@@ -27,3 +27,22 @@ El desarrollo debe realizarse en un notebook de Jupyter documentando cada etapa 
 ## Modelos a utilizar
 - SGDClassifier (Fase 1)
 - Random Forest (Fase 2 para comparar)
+
+## Instalación y Ejecución
+
+El proyecto está configurado para ejecutarse de manera asilada utilizando Docker. Sigue estos pasos:
+
+1. **Construir e iniciar el contenedor**:
+   ```bash
+   docker compose up -d --build
+   ```
+
+2. **Acceder al notebook**:
+   Acceder a la siguiente direccion desde el navegador:
+   [http://localhost:8888/tree/notebook/notebook.ipynb?token=tarea5](http://localhost:8888/tree/notebook/notebook.ipynb?token=tarea5)
+
+3. **Detener el contenedor**:
+   Para detener el entorno una vez que termines de trabajar, ejecuta:
+   ```bash
+   docker compose down
+   ```
